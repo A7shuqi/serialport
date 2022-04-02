@@ -27,20 +27,13 @@ int main (int argc, char *argv[])
     	    	printf("Set Parity Error\n");
         		exit(EXIT_FAILURE);
     }
+
      //use object 
-   
-    while (1)
-    {
-       if(read(fd,ptr,strlen(ptr))<0)
-        {
-		
-	    }
-        else
-        {
-            printf("say : %s " , ptr);
-        }
-    }
-    
+   if(write(fd,ptr,strlen(ptr))<0)
+	{
+		perror("write");
+		exit(EXIT_FAILURE);
+	}
     printf("pls check the tty data\n");
     close(fd);
 
