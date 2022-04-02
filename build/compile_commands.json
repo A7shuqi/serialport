@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/zk/project/serialport/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/serialport.dir/main.cpp.o -c /home/zk/project/serialport/main.cpp",
+  "file": "/home/zk/project/serialport/main.cpp"
+},
+{
+  "directory": "/home/zk/project/serialport/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/serialport.dir/sport.cpp.o -c /home/zk/project/serialport/sport.cpp",
+  "file": "/home/zk/project/serialport/sport.cpp"
+}
+]

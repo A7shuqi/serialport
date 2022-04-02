@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/serialport.dir/main.cpp.o CMakeFiles/serialport.dir/sport.cpp.o  -o serialport 
